@@ -15,8 +15,6 @@ buckets are objects containing named accumulators (think: counters). If a new it
 Finally the new item is (somehow) added to the accumulator value
 
 
-A bucket is a collection 
-
 Options:
 
 - `key(item)` => string: get the bucket key from an item. (See time-based-buckets for some helper functions for this)
@@ -28,11 +26,13 @@ Examples
 
 Count visitors per year and weekday.
 
+``` js
   {
     key: item=>DateTime.fromMillis(item.timestamp).year
     accName: item=>DateTime.fromMillis(item.timestamp).weekDay
     reduce: (acc, item)=>(acc || 0) + item.count
   }
+```
 
 See also:
 
