@@ -1,0 +1,16 @@
+{
+  "name": "hummel-hummel",
+  "version": "1.0.0",
+  "description": "hummel-hummel =========== helping with buckets since 1787.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [],
+  "author": "Jan Bölsche <jan@lagomorph.de> (http://regular.codes/)",
+  "license": "ISC",
+  "devDependencies": {
+    "pull-stream": "^3.7.0",
+    "tape": "^5.7.5"
+  }
+}
