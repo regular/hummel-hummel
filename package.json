@@ -1,5 +1,8 @@
 {
-  "name": "hummel-hummel",
+  "name": "@regular/hummel-hummel",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "hummel-hummel =========== helping with buckets since 1787.",
   "main": "index.js",
